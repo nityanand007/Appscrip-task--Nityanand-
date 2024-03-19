@@ -28,7 +28,7 @@
   .filter_options { display: flex; background: #fff; justify-content: center; flex-direction: column; color: #1f2937; text-decoration: none; margin-top: 35px; position: absolute; top: 14px; z-index: 99999; }
   .filter_options a { font-family: "Simplon Norm"; font-size: 18px; font-weight: 400; line-height: 19px; letter-spacing: 0; text-align: left; color: #1f2937; background: #fff; padding: 10px; margin-top: 4px; text-decoration: none; display: flex; text-transform: uppercase; }
   .rotate { transform: rotate(180deg); transition: 0.4s;}
-  .footer_card_detail { position: absolute; top: 57px; display: flex; align-items: center; gap: 20px; justify-content: space-between; }
+  .footer_card_detail { position: absolute; top: 25px; display: flex; align-items: center; gap: 20px; justify-content: space-between; }
   .footer_drop_down { display: flex; justify-content: space-between; align-items: center; position: relative; }
 }
 
