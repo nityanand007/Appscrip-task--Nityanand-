@@ -11,7 +11,7 @@
 .icon_Mob, .isMobile { display: none; }
 @media (max-width: 1024px) {
   .header_tab { gap: 16px; }
-  .header_bottom { margin: 0 10px; }
+  .header_bottom {    margin: 32px 20px; }
   .header_top { padding: 0; }
   .header_bottom h1 { padding-left: 128px; }
   .icon { gap: 7px; }
@@ -20,7 +20,7 @@
   .icon_desktop, .isDesktop { display: none; }
   .icon_Mob, .isMobile { display: block; }
   .header_top { padding: 2px 140px; }
-  .header_bottom { margin: 0; border-bottom: 1px solid #e5e5e5; }
+  .header_bottom { margin:16px 16px; border-bottom: 1px solid #e5e5e5; }
   .header_bottom img { width: 20px; height: 20px; }
   .header_bottom h1 { font-size: 20px; padding: 0; }
   .header_tab_menu { font-size: 12px; font-weight: 400; }
