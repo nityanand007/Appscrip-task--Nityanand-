@@ -1,0 +1,25 @@
+.filter { border-top: 1px solid #e5e5e5; border-bottom: 1px solid #e5e5e5; display: flex; max-width: 1440px; margin: 0 auto; position: relative; justify-content: space-between; align-items: center; }
+.filter_section { gap: 160px; display: flex; align-items: center; }
+.filter_section p { font-family: "Simplon Norm"; font-size: 18px; font-weight: 700; line-height: 40px; letter-spacing: 0; }
+.recommended { font-family: "Simplon Norm"; font-size: 18px; font-weight: 700; line-height: 40px; letter-spacing: 0; display: flex; align-items: center; gap: 20px; position: relative; text-transform: uppercase; cursor: pointer; }
+.recommended img { cursor: pointer; }
+.show_filter { font-family: "Adobe Caslon Pro"; font-size: 16px; font-weight: 400; line-height: 40px; letter-spacing: 0; color: #888792; text-decoration: underline; display: flex; align-items: center; gap: 20px; text-transform: uppercase; position: relative; cursor: pointer; }
+.dropdown_menu { position: absolute; z-index: 1; background: #fff; top: 62px; text-align: right; border: 1px solid #e5e5e5; border-radius: 4px; right: 16px; padding: 20px; font-size: 18px; text-transform: uppercase; cursor: pointer; }
+.filter_options { position: absolute; top: 72px; z-index: 99999; display: flex; right: 65px; padding: 20px; width: 285px; background: #ffff; flex-direction: column; }
+.filter_options input { cursor: pointer; }
+.filter_options p { font-family: "Simplon Norm"; font-size: 16px; font-weight: 400; line-height: 19px; letter-spacing: 0; text-decoration: underline; }
+.filter_options label { font-family: "Simplon Norm"; font-size: 18px; font-weight: 700; color: #252020; line-height: 22px; padding-top: 8px; }
+.filter_options ul { font-family: "Simplon Norm"; font-size: 18px; font-weight: 400; line-height: 22px; right: 36px; position: relative; }
+.bottom_line { border: 1px solid #e5e5e5; margin: 26px 0; cursor: pointer; }
+.filter_mob { display: none; }
+.rotate { transform: rotate(180deg);transition: 0.4s; }
+@media (max-width: 1024px) {
+  .filter_section { gap: 22px; }
+  .filter_options { right: -38px; padding: 18px; width: 245px; }
+}
+@media (max-width: 575px) {
+  .filter_section { display: none; }
+  .filter_mob { display: block; font-family: "Simplon Norm"; font-size: 14px; font-weight: 700; line-height: 17px; letter-spacing: 0; text-align: left; gap: 164px; display: flex; align-items: center;    margin: 0 12px;text-transform: uppercase; }
+  .recommended,.dropdown_menu{    font-size: 14px;
+    line-height: 17px;}
+}

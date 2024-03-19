@@ -1,0 +1,15 @@
+.product { max-width: 1440px; margin: 0 auto; position: relative; justify-content: space-between; align-items: center; padding: 36px 0; display: flex; gap: 16px; flex-wrap: wrap; }
+.product_list { width: 300px; height: 462px; margin-bottom: 104px; }
+.product_title h3 { font-family: "Simplon Norm"; font-size: 18px; font-weight: 700; line-height: 22px; letter-spacing: 0; overflow: hidden; text-overflow: ellipsis; -webkit-line-clamp: 2; aspect-ratio: auto; display: -webkit-box; -webkit-box-orient: vertical; cursor: pointer; }
+.product_details p { font-family: "Simplon Norm"; font-size: 14px; font-weight: 400; line-height: 17px; letter-spacing: 0; color: #888792; overflow: hidden; text-overflow: ellipsis; -webkit-line-clamp: 1; aspect-ratio: auto; display: -webkit-box; -webkit-box-orient: vertical; cursor: pointer; }
+.product_details { display: flex; justify-content: space-between; align-items: center; cursor: pointer; }
+@media (max-width: 1024px) {
+  .product { margin: 0 16px; }
+  .product_list { width: 29%; margin-bottom: 0; }
+  .product_list>img { width: 180px; height: 260px; }
+}
+@media (max-width: 575px) {
+  .product_list { width: 46%; height: 100%; }
+  .product { margin: 0 8px; }
+  .product_list>img { width: 168px; height: 224px; }
+}
