@@ -2,9 +2,9 @@
 .header_top_strip { width: 138px; height: 16px; gap: 10px; display: flex; align-items: center; white-space: nowrap; }
 .header_top_strip p { font-family: "Simplon Norm"; font-size: 12px; font-weight: 400; line-height: 14px; letter-spacing: 1px; text-align: left; color: #eb4c6b; }
 .header_top { display: flex; justify-content: space-between; align-items: center; padding: 8px 274px; background: #000; }
-.header_bottom { display: flex; justify-content: space-between; align-items: center; margin: 0 96px; }
+.header_bottom { display: flex; justify-content: space-between; align-items: center; margin: 32px 96px 0; }
 .header_bottom h1 { font-family: "Inter"; font-size: 36px; font-weight: 800; line-height: 44px; letter-spacing: 1px; padding-left: 94px; }
-.header_tab { gap: 64px; display: flex; justify-content: center; background: #fff; white-space: nowrap; width: 636px; margin: 0 auto; }
+.header_tab { gap: 64px; display: flex; justify-content: center; white-space: nowrap; width: 51%; margin: 36px auto 0; }
 .header_tab_menu { font-family: "Simplon Norm"; font-size: 20px; font-weight: 700; line-height: 24px; letter-spacing: 1px; text-align: left; }
 .icon { display: flex; align-items: center; justify-content: space-between; gap: 24px; cursor: pointer; }
 .isDesktop { display: block; }

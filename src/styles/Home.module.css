@@ -1,5 +1,5 @@
 .main { display: flex; flex-direction: column; justify-content: space-between; align-items: center; max-width: 1440px; margin: 0 auto; position: relative; height: auto; }
-.description_box { width: 55%; height: 100%; }
+.description_box { width: 55%; height: 100%;margin: 57px 0; }
 .description_box p { width: 87%; color: #252020; font-family: "Simplon Norm"; font-size: 22px; font-weight: 400; line-height: 40px; letter-spacing: 0; text-align: center; }
 .description_box h1 { font-family: "Simplon Norm"; font-size: 60px; color: #252020; font-weight: 400; line-height: 72px; letter-spacing: 1px; text-align: center; }
 @media (max-width: 1024px) {
