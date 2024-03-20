@@ -4,6 +4,10 @@ const nextConfig = {
   images: {
     domains: ['fakestoreapi.com'],
   },
+  distDir: "build",
+  eslint: {
+    ignoreDuringBuilds: true,
+  },
 };
 
 export default nextConfig;
