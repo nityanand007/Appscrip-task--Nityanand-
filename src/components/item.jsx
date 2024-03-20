@@ -26,7 +26,7 @@ function Item({ data }) {
     <div className={styles.product}>
       {data?.data?.map((item, index) => (
         <div className={styles.product_list} key={index}>
-          <Image src={item?.image} width={300} height={399} alt={item?.category} loading="lazy"  objectFit="cover" />
+          <Image src={item?.image} width={300} height={399} alt={item?.category} loading="lazy" />
           <div className={styles.product_title}>
             <h3>{item?.title}</h3>
             <div className={styles.product_details}>
